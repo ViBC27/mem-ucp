@@ -1,7 +1,5 @@
 ## Identificação
 
-* Página do repositório do trabalho (https://github.com/ViBC27/ucp-mem)
-
 * Discente 1
 	* Nome: Vitor Barcelos de Cerqueira
 	* Matrícula: 18110271 
@@ -41,7 +39,6 @@ Após as declarações das bibliotecas, realizamos a utilização de algumas fun
 
 Outra função que auxiliou na manipulação do código foi a clock. A função clock contribui para realizar mensuração do uso da UCP e da UCP-MEM a cada 1 segundo durante um total de 10 segundos (como o solicitado), sem realizar a “interrupção” dos processos. 
 
-
 ### Utilização intensa da UCP
 
 O gráfico de utilização intensa da UCP traz de maneira clara o resultado obtido no comando ./bin ucp, possuindo uma curva de acordo com o esperado, visto que, durante os 10 segundos (período que foi realizado o monitoramento), a UCP estava demonstrando total intensidade durante a execução do comando, apresentando poucas variações durante o processo.
@@ -55,5 +52,8 @@ O gráfico da utilização intensa da UCP – MEM mostra os resultados obtidos p
 Enquanto que a UCP está em utilização intensa junto a MEM seu comportamento é o semelhante em relação a sua utilização intensa sem haver alocação de memória. Ao realizarmos o monitoramento da memória (física e virtual) podemos observar que sua taxa de variação por segundo é muito pequena ou quase nula (levando em consideração o seu modo ocioso), porém as variações se mantêm entre 20% e 30% em ambas, considerando um computador de 4Gb de RAM. 
 
 O código fonte criado (./bin ucp-mem) e o gráfico obtido nesse trabalho prático foram essenciais para demonstrar o quanto é perigoso trabalhar com UCP e MEM em utilização máxima (independente de suas configurações de Hardware) , pois há o risco de superaquecimento (mais comum), danificação do hardware (Memória e/ou Unidade Central de Processamento, por exemplo).
+
+## REFERÊNCIAS
+These functions is part of release 4.16 of the Linux man-pages project.  A description of the project, information about reporting bugs, and the latest version of these functions, can be found at https://www.kernel.org/doc/man-pages/.
 
 **OBS: O CÓDIGO FONTE CONTÉM COMENTÁRIOS EM INGLÊS.**
