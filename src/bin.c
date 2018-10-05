@@ -100,7 +100,7 @@ int main(int argc, char *argv[])
     else if(pid > 0)
     {
 
-      // Code area of the ​​father process.
+      // Code area of the father process.
       father(argv[1], cpu_info, memory_info, 0);
       printf("Sucess!\n"); // End of software.    
       system(kill_command); // Command to kill the process.
@@ -113,4 +113,4 @@ int main(int argc, char *argv[])
   return 0;
 }
 
-// For more information visit my repository https://github.com/ViBC27/mem-ucp
+// For more information visit my repository https://github.com/ViBC27/ucp-mem
