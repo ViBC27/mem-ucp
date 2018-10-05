@@ -29,6 +29,19 @@ Gráficos com os resultados das medições das seguintes métricas utilizadas pa
 
 ## Discussão
 
+### Utilização de bibliotecas e funções
+
+A biblioteca string.h foi utilizada para a declaração de strings com o intuito de armazenar os comandos a serem executados no terminal. A função strcmp foi utilizada para verificar se as entradas digitadas pelo usuário são válidas.
+
+A biblioteca stdio.h foi empregada para a utilização da função sprintf que tem a mesma funcionalidade da função printf, mas a saída após a execução é colocada em uma variável. A vantagem dessa função é poder formatar uma string. Além disso, foi usada a função printf para mostrar as mensagens “Error!, Sucess! e Invalid command!”.
+
+A biblioteca stdlib.h foi usada para manipular a função system que executa um comando específico no terminal. Com isso, ela foi aplicada para  executar o comando solicitado pelo o usuário. Esses, podem ser:  (./bin ucp ou ./bin ucp-mem). Ainda nessa função utilizamos o comando que denominamos como kill_command para finalizar a execução do processo. Essa biblioteca também é responsável pela função malloc que aloca espaço para um bloco de bytes consecutivos na memória RAM do computador.  O número de bytes é especificado no argumento da função.
+
+Após as declarações das bibliotecas, realizamos a utilização de algumas funções e variáveis que são essenciais para a desenvoltura do código. Ao inciar o código realizamos a declaração de uma variável do tipo pid_t, esse tipo de variável armazena os ID’s do processo pai e do filho criado pela função fork. A Função fork foi de grande importância para o trabalho, pois foi através dela que conseguimos criar uma cópia do processo pai, que é denominado como processo filho e aloca espaço da memória separadamente para realizar a execução desse novo processo. Pode-se notar que trata de dois processos distintos no momento que solicitamos o ID de cada um. A função fork tem retorno inteiro (< 0 , 0, > 0)  e dependendo dele, o código irá realizar processos distintos.  
+
+Outra função que auxiliou na manipulação do código foi a clock. A função clock contribui para realizar mensuração do uso da UCP e da UCP-MEM a cada 1 segundo durante um total de 10 segundos (como o solicitado), sem realizar a “interrupção” dos processos. 
+
+
 ### Utilização intensa da UCP
 
 O gráfico de utilização intensa da UCP traz de maneira clara o resultado obtido no comando ./bin ucp, possuindo uma curva de acordo com o esperado, visto que, durante os 10 segundos (período que foi realizado o monitoramento), a UCP estava demonstrando total intensidade durante a execução do comando, apresentando poucas variações durante o processo.
