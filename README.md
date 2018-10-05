@@ -17,13 +17,13 @@
 	
 ## Resultados
 
-* TODO: Gráficos com os resultados das medições das seguintes métricas utilizadas para avaliar o comportamento do **processo filho**:
+Gráficos com os resultados das medições das seguintes métricas utilizadas para avaliar o comportamento do **processo filho**:
 
-*  **UCP(%)**:
+**UCP(%)**:
 
 ![Uso intenso da UCP](https://github.com/ViBC27/ucp-mem/blob/master/src/cpu.jpeg)
 	
-*  **UCP-MEM(kB)**: 
+**UCP-MEM(kB)**: 
 
 ![Uso intenso da UCP](https://github.com/ViBC27/ucp-mem/blob/master/src/cpu-mem.jpeg) 
 
