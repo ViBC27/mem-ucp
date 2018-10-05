@@ -56,3 +56,4 @@ Enquanto que a UCP está em utilização intensa junto a MEM seu comportamento �
 
 O código fonte criado (./bin ucp-mem) e o gráfico obtido nesse trabalho prático foram essenciais para demonstrar o quanto é perigoso trabalhar com UCP e MEM em utilização máxima (independente de suas configurações de Hardware) , pois há o risco de superaquecimento (mais comum), danificação do hardware (Memória e/ou Unidade Central de Processamento, por exemplo).
 
+**OBS: O CÓDIGO FONTE CONTÉM COMENTÁRIOS EM INGLÊS.**
