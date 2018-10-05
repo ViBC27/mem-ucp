@@ -4,6 +4,12 @@ Pré-requisitos:
 * GNU/Linux, distribuição Ubuntu 15.10 (ou superior);
 * GCC  v7.3.0;
 
+Download:
+
+* Acessar diretório src;
+* Abrir arquivo bin.c;
+* Fazer download;
+
 Execução:
 
 * Abrir o terminal (Crtl + Alt + T);
